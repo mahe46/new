@@ -1,10 +1,14 @@
 package javaaaaa;
 
+import org.testng.annotations.Parameters;
+
 public class B extends A {
 	
 	public static void main(String[] args) {
 		
 		B b = (B) new A();
+		@Parameters({"browser"})	
+		  
 
 		int a[]= {1,2,23,5,34,6};
 		int temp;
